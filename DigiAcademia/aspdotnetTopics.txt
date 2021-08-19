@@ -1,0 +1,16 @@
+Day-1
+Controls
+  Label
+ Textbox
+ Texbox mode
+ button control
+ input and output in textbox
+swapping program using textbox
+textbox general properties
+
+Button General Properties
+radio buttonlist
+implemenattaion
+checkbox list implementation
+drop down list
+listbox

@@ -1,0 +1,6 @@
+D:\Madiha\DigiAcademia\DigiAcademia\bin\DigiAcademia.dll.config
+D:\Madiha\DigiAcademia\DigiAcademia\bin\DigiAcademia.dll
+D:\Madiha\DigiAcademia\DigiAcademia\bin\DigiAcademia.pdb
+D:\Madiha\DigiAcademia\DigiAcademia\obj\Debug\DigiAcademia.csprojResolveAssemblyReference.cache
+D:\Madiha\DigiAcademia\DigiAcademia\obj\Debug\DigiAcademia.dll
+D:\Madiha\DigiAcademia\DigiAcademia\obj\Debug\DigiAcademia.pdb
