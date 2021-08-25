@@ -104,5 +104,12 @@ namespace DigiAcademia
         {
             lblrdbCity.Text = rdbCity.SelectedItem.Text;
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            //FileUpload1.PostedFile.SaveAs(Server.MapPath("~/images/" + FileUpload1.FileName));
+
+            var size=FileUpload1.PostedFile.ContentLength;
+        }
     }
 }

@@ -102,6 +102,11 @@
         <br />
         <br />
         <br />
+        <asp:FileUpload ID="FileUpload1" runat="server" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+        <br />
+        <br />
+        <br />
         <br />
     
     </div>
