@@ -27,8 +27,15 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td>
+                    &nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
                 <td>&nbsp;</td>
+                <td>
+                    <asp:Label ID="lblError" runat="server" ForeColor="#FF3300" Text="Invalid OTP" Visible="False"></asp:Label>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -48,9 +55,12 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnChangePswd" runat="server" Text="Save" Visible="False" />
+                    <asp:Button ID="btnChangePswd" runat="server" Text="Save" Visible="False" OnClick="btnChangePswd_Click" />
                 </td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:Label ID="lblSuccessMessage" runat="server" ForeColor="Lime" Text="Password changes Successfully" Visible="False"></asp:Label>
+&nbsp;<asp:LinkButton ID="btnGoLogin" runat="server" OnClick="btnGoLogin_Click" Visible="False">Go To Login</asp:LinkButton>
+                </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>

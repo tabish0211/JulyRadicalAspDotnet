@@ -11,6 +11,14 @@ namespace DigiAcademia
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["uname"]==null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+        }
+
+        protected void btnEdit_Click(object sender, EventArgs e)
+        {
 
         }
     }

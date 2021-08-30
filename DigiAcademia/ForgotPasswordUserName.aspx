@@ -33,7 +33,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnVerify" runat="server" BackColor="#0099FF" ForeColor="White" style="font-size: xx-large" Text="Verify" />
+                    <asp:Button ID="btnVerify" runat="server" BackColor="#0099FF" ForeColor="White" style="font-size: xx-large" Text="Verify" OnClick="btnVerify_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

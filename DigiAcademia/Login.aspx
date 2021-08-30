@@ -48,13 +48,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnLogin" runat="server" BackColor="#0099FF" ForeColor="White" style="font-size: xx-large" Text="Login" />
+                        <asp:Button ID="btnLogin" runat="server" BackColor="#0099FF" ForeColor="White" style="font-size: xx-large" Text="Login" OnClick="btnLogin_Click" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:LinkButton ID="linkForgot" runat="server" style="font-size: xx-large">Forgot Password?</asp:LinkButton>
+                        <asp:LinkButton ID="linkForgot" runat="server" style="font-size: xx-large" OnClick="linkForgot_Click">Forgot Password?</asp:LinkButton>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
