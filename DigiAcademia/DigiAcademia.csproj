@@ -74,12 +74,14 @@
     <Content Include="ConfirmReg.aspx" />
     <Content Include="Control-2.aspx" />
     <Content Include="Controls.aspx" />
+    <Content Include="FielHandlingConceptaspx.aspx" />
     <Content Include="ForgotPasswordUserName.aspx" />
     <Content Include="Global.asax" />
     <Content Include="images\Home.png" />
     <Content Include="images\profilepic.jfif" />
     <Content Include="images\sample.png" />
     <Content Include="Login.aspx" />
+    <Content Include="LogInFormAuth.aspx" />
     <Content Include="Notification.aspx" />
     <Content Include="OTP.aspx" />
     <Content Include="SearchStudents.aspx" />
@@ -147,6 +149,14 @@
     <Compile Include="Controls.aspx.designer.cs">
       <DependentUpon>Controls.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FielHandlingConceptaspx.aspx.cs">
+      <DependentUpon>FielHandlingConceptaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FielHandlingConceptaspx.aspx.designer.cs">
+      <DependentUpon>FielHandlingConceptaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandlingConcept\FileHandling.cs" />
     <Compile Include="ForgotPasswordUserName.aspx.cs">
       <DependentUpon>ForgotPasswordUserName.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -163,6 +173,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInFormAuth.aspx.cs">
+      <DependentUpon>LogInFormAuth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInFormAuth.aspx.designer.cs">
+      <DependentUpon>LogInFormAuth.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\StudentProfile.cs" />
     <Compile Include="Notification.aspx.cs">
